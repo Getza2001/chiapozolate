@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chiapazolate</title>
+    <link rel='stylesheet' href='/stylesheets/RegistrarCompra.css'>
+</head>
+<body>
+    <img class="logo" src="/images/logo.png">
+    <img class="icono1" src="/images/icono1.png">
+    <img class="icono2" src="/images/icono2.png">
+    <img class="icono3" src="/images/icono3.png">
+    <img class="icono4" src="/images/icono4.png">
+    <img class="flecha1" src="/images/flecha1.png">
+    <img class="flecha2" src="/images/flecha2.png">
+    <img class="flecha3" src="/images/flecha3.png">
+    <h1>Registrar Compra</h1>
+    <div class="detalles">
+        <h2>Detalles de la compra</h2>
+        <h3>Cantidad: <%= pago2.cant %></h3>
+        <h4>Producto: <%= pago2.nombre %></h4>
+        <h5>Total a pagar:</h5>
+        <h6>$<%= pago2.total %></h6>
+        <h7><%= pago2.divisas %></h7>
+    </div>
+    <div class="confirmar">
+        <h8>Confirmar compra</h8>
+        <img class="tarjeta" src="/images/tarjeta.png">
+        <form action="/pago/finalizarC" method="GET">
+            <input type="text" class="codigo" placeholder="Código de referencia" required>
+            <input type="submit" class="finalizarC" value="Finalizar compra">
+        </form>
+    </div>
+</body>
+</html>

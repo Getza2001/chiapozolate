@@ -1,0 +1,92 @@
+body{
+    background-image: url("../images/back.jpg");
+    background-size: cover;
+    margin:0;
+    padding:0;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    font-size: 20px;
+}
+.inicio{
+    background: white;
+    color: #956655;
+    text-align: center;
+    align-items: center;
+    width: 8%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    padding: .5em;
+}
+.inicio .icon1{
+    width: 30px;
+    height: 30px;
+}
+.box .icon{
+    width: 230px;
+    height: 120px;
+}
+.box{
+    background:#FFFFFF80;
+    padding: 1em;
+    text-align: center;
+    width: 25%;
+    height: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #653B2C;
+}
+#btRegistarse{
+    background-color: #956655;
+    display: block;
+    margin: 20px auto;
+    width: 15%;
+    text-align: center;
+    color: white;
+    border: none;
+    padding: 11px;
+    transition: 0.50s;
+    cursor: pointer;
+    position: absolute;
+    top:73%;
+    left: 42.5%;
+}
+.box input[type = "text"],.box input[type = "password"]{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: none;
+    color: #956655;
+    padding: 14px 1px;
+    outline: none;
+    width: 60%;
+    transition: 0.50s;
+}
+.inicio input[type = "submit"]{
+    background-color: white;
+    margin: 5px auto;
+    width: 70%;
+    height: 1%;
+    text-align: center;
+    color: #956655;
+    border: none;
+    transition: 0.50s;
+    cursor: pointer;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    font-size: 25px;
+}
+.box input[type = "submit"]{
+    background-color: #956655;
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    text-align: center;
+    color: white;
+    border: none;
+    padding: 11px;
+    transition: 0.50s;
+    cursor: pointer;
+}

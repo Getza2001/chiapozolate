@@ -1,0 +1,99 @@
+body{
+    background-image: url("../images/back.jpg");
+    background-size: cover;
+    margin:0;
+    padding:0;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    font-size: 20px;
+}
+.inicio{
+    background: white;
+    color: #956655;
+    text-align: center;
+    align-items: center;
+    width: 8%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    padding: .5em;
+}
+.inicio .icon1{
+    width: 30px;
+    height: 30px;
+}
+.inicio input[type = "submit"]{
+    background-color: white;
+    margin: 5px auto;
+    width: 70%;
+    height: 1%;
+    text-align: center;
+    color: #956655;
+    border: none;
+    transition: 0.50s;
+    cursor: pointer;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.box .icon{
+    width: 230px;
+    height: 120px;
+}
+.box input[type = "text"],.box input[type = "password"]{
+    display: block;
+    margin: 20px auto;
+    text-align: left;
+    border: none;
+    color: #956655;
+    padding: 14px 1px;
+    outline: none;
+    width: 60%;
+    transition: 0.50s;
+    font-size: 20px;
+}
+.box{
+    background: white;
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1em;
+    text-align: center;
+    color: #653B2C;
+}
+h1{
+    color: white;
+}
+.box img{
+    position: relative;
+    left: -25%;
+    top: 30%;
+}
+.form {
+    background: #956655;
+    width: 45%;
+    height: 87%;
+    position: relative;
+    left: 48%;
+    top: -31.5%;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+.box input[type = "submit"]{
+    background-color: #956655;
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    text-align: center;
+    color: white;
+    border-color: white;
+    padding: 11px;
+    transition: 0.50s;
+    cursor: pointer;
+    font-size: 20px;
+}

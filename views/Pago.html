@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chiapazolate</title>
+    <link rel='stylesheet', href='/stylesheets/Pago.css'>
+</head>
+<body>
+    <img class="logo" src="/images/logo.png">
+    <img class="icono1" src="/images/icono1.png">
+    <img class="icono2" src="/images/icono2.png">
+    <img class="icono3" src="/images/icono3.png">
+    <img class="icono4" src="/images/icono4.png">
+    <img class="flecha1" src="/images/flecha1.png">
+    <img class="flecha2" src="/images/flecha2.png">
+    <img class="flecha3" src="/images/flecha3.png">
+    <h1>PAGO</h1>
+    <div class="divisa">
+        <h2>Seleccione divisa</h2>
+        <form action="/pago/divisa1" method="POST">
+            <input  id="Divisa1" name ="Divisa1" type="submit" class="mxn" value="MXN">
+        </form>
+        <form action="/pago/divisa2" method="POST">
+            <input  id="Divisa2" name ="Divisa2"  type="submit" class="usd" value="USD">
+        </form>
+    </div>
+    <div class="detalles">
+        <h3>Detalles de la compra</h3>
+        <h4>Cantidad: <%= data.cant %></h4>
+        <h5><%= data.nombre %></h5>
+        <h6>Total a pagar:</h6>
+    </div>
+</body>
+</html>

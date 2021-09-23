@@ -1,0 +1,340 @@
+body{
+    background: white;
+    background-size: cover;
+}
+
+.logo{
+    width: 250px; height: 250px;
+    position: absolute;
+    top: -5%;
+    left: 75%;
+}
+.icono1 {
+    border: 2px solid;
+    border-radius: 100%;
+    width: 55px; height: 55px;
+    position: absolute;
+    top: 6%;
+    left: 40%;
+    filter: invert(40%) sepia(30%) saturate(500%) hue-rotate(330deg);
+}
+.icono2{
+    border: 2px solid;
+    border-radius: 100%;
+    width: 55px; height: 55px;
+    position: absolute;
+    top: 6%;
+    left: 46%;
+    filter: invert(40%) sepia(30%) saturate(500%) hue-rotate(330deg);
+}
+.icono3{
+    border: 2px solid;
+    border-radius: 100%;
+    width: 55px; height: 55px;
+    position: absolute;
+    top: 6%;
+    left: 52%;
+    filter: invert(40%) sepia(30%) saturate(500%) hue-rotate(330deg);
+}
+.icono4{
+    border: 2px solid;
+    border-radius: 100%;
+    width: 55px; height: 55px;
+    position: absolute;
+    top:6%;
+    left: 58%;
+    filter: invert(40%) sepia(30%) saturate(500%) hue-rotate(330deg);
+}
+.flecha1{
+    width: 55px; height: 55px;
+    position: absolute;
+    top:6%;
+    left: 43%;
+    filter: invert(40%) sepia(30%) saturate(500%) hue-rotate(330deg);
+}
+.flecha2{
+    width: 55px; height: 55px;
+    position: absolute;
+    top:6%;
+    left: 49%;
+    filter: invert(40%) sepia(30%) saturate(500%) hue-rotate(330deg);
+}
+.flecha3{
+    width: 55px; height: 55px;
+    position: absolute;
+    top:6%;
+    left: 55%;
+    filter: invert(40%) sepia(30%) saturate(500%) hue-rotate(330deg);
+}
+h1{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color: #653B2C;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Segoe UI;
+}
+.divisa{
+    position: absolute;
+    top: 20%;
+    left: 11%;
+    width: 531px; height: 170px;
+    border: 1px solid #956655;
+}
+h2{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: #653B2C;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Segoe UI;
+}
+h7{
+    background: white;
+    position: absolute;
+    top: 55%;
+    left: 42%;
+    color: #653B2C;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Segoe UI;
+    width: 120px; height: 30px;
+}
+.detalles{
+    position: absolute;
+    top: 48%;
+    left: 11%;
+    width: 531px; height: 336px;
+    border: 1px solid #956655;
+}
+h3{
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    color: #653B2C;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Segoe UI;
+}
+h4{
+    position: absolute;
+    top: 28%;
+    left: 10%;
+    color: #653B2C;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Segoe UI;
+}
+h5{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    color: #653B2C;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Segoe UI;
+}
+h6{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    color: #653B2C;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Segoe UI;
+}
+h8{
+    position: absolute;
+    top: 63%;
+    left: 55%;
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Segoe UI;
+}
+h9{
+    position: absolute;
+    top: 63%;
+    left: 72%;
+    color: #653B2C;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Segoe UI;
+}
+.cuenta{
+    position: absolute;
+    top: 20%;
+    left: 54%;
+    width: 544px; height: 535px;
+    border: 1px solid #956655;
+}
+.linea1{
+    width:0px; height: 330px;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+}
+.linea2{
+    width: 400px;
+    position: absolute;
+    top: 17%;
+    left: 12%;
+}
+.linea3{
+    width: 400px;
+    position: absolute;
+    top: 28%;
+    left: 12%;
+}
+.linea4{
+    width: 400px;
+    position: absolute;
+    top: 39%;
+    left: 12%;
+}
+.linea5{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 12%;
+}
+.linea6{
+    width: 400px;
+    position: absolute;
+    top: 61%;
+    left: 12%;
+}
+h10{
+    position: absolute;
+    top: 3%;
+    left: 6%;
+    color: #653B2C;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Segoe UI;
+}
+h11{
+    position: absolute;
+    top: 11%;
+    left: 13%;
+    color: #653B2C;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Segoe UI;
+}
+h12{
+    position: absolute;
+    top: 11%;
+    left: 55%;
+    color: #653B2C;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Segoe UI;
+}
+h13{
+    position: absolute;
+    top: 21%;
+    left: 13%;
+    color: #653B2C;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Segoe UI;
+}
+h14{
+    position: absolute;
+    top: 21%;
+    left: 55%;
+    color: #653B2C;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Segoe UI;
+}
+h15{
+    position: absolute;
+    top: 32%;
+    left: 13%;
+    color: #653B2C;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Segoe UI;
+}
+h16{
+    position: absolute;
+    top: 32%;
+    left: 55%;
+    color: #653B2C;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Segoe UI;
+}
+h17{
+    position: absolute;
+    top: 43%;
+    left: 13%;
+    color: #653B2C;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Segoe UI;
+}
+h18{
+    position: absolute;
+    top: 43%;
+    left: 55%;
+    color: #653B2C;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Segoe UI;
+}
+h19{
+    position: absolute;
+    top: 54%;
+    left: 13%;
+    color: #653B2C;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Segoe UI;
+}
+h20{
+    position: absolute;
+    top: 54%;
+    left: 55%;
+    color: #653B2C;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Segoe UI;
+}
+h21{
+    position: absolute;
+    top: 64%;
+    left: 13%;
+    color: #653B2C;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Segoe UI;
+}
+h22{
+    position: absolute;
+    top: 64%;
+    left: 55%;
+    color: #653B2C;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Segoe UI;
+}
+.pagoR{
+    background: #956655;
+    position: absolute;
+    top: 78%;
+    left: 38%;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Segoe UI;
+    width: 140px; height: 40px;
+    box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.1);
+    border-color: #ffffff;
+    border-radius: 5px;
+
+}

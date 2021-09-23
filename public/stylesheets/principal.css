@@ -1,0 +1,463 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*pagina principal*/
+.barra{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+.barra ul {
+    list-style-type:none;
+    padding:0;
+    margin-top: 0;
+    overflow: hidden;
+    background-color: #956655;
+}
+
+.barra li{
+    float:left;
+}
+
+.barra a {
+    display:block;
+    width:305px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.barra a:hover {
+    background-color: #794b3b;
+}
+
+.btnRI{
+    width: 300px;
+    height: 30px;
+    margin-left: 1050px;
+    margin-top: 30px;
+    position: absolute;
+
+}
+
+.btnRI button{
+    height: 30px;
+    width: 130px;
+    cursor: pointer;
+
+}
+
+#btnInicio{
+    background: white;
+    color: #653B2C;
+    font-weight: bold;
+    font-family: Segoe UI;
+    box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.1);
+    border-color: white;
+    border-radius: 5px;
+
+}
+
+#btnRegistro{
+    background: #956655;
+    color: white;
+    font-weight: bold;
+    font-family: Segoe UI;
+    box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.1);
+    border-color: #ffffff;
+    border-radius: 5px;
+
+}
+/*imagenes en barra*/
+#logo{
+    width: 300px;
+    margin-left: 510px;
+
+}
+
+#home{
+    width: 35px;
+    margin-top: 8px;
+    margin-left: -1250px;
+}
+#car{
+    width: 35px;
+    margin-left: 280px;
+}
+
+#person{
+    width: 35px;
+    margin-left: 280px;
+}
+
+#contact{
+    width: 35px;
+    margin-left: 310px;
+}
+
+/* mensaje de pozol de dioses*/
+.mensaje img{
+    width: 100%;
+    height: 400px;
+    margin-top: 175px;
+}
+.mensaje h1{
+    color: #956655;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    margin-left: 550px;
+}
+
+.mensaje h2 {
+    color: #956655;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    margin-left: 510px;
+}
+
+/*vista principal*/
+.grupo1{
+    margin-top: 30px;
+    border:2px solid #e8c0ae;
+    height: 230px;
+}
+
+.grupo1 img{
+    margin-top: -30px;
+    margin-left: 20px;
+}
+.grupo1 h2 {
+    color: #956655;
+    margin-top: -220px;
+    margin-bottom: 5px;
+    margin-left: 250px;
+    text-decoration: underline;
+
+}
+.grupo1 h3 {
+    color: #956655;
+
+    margin-left: 250px;
+
+}
+
+.grupo2{
+    margin-top: 30px;
+    border:2px solid #e8c0ae;
+    height: 230px;
+}
+
+.grupo2 img{
+    margin-top: -30px;
+    margin-left: 1000px;
+}
+
+.grupo2 h3 {
+    color: #956655;
+    margin-top: -100px;
+    margin-left: 50px;
+
+}
+
+
+#pozolU{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+#pozolD{
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: 1000px;
+}
+
+.grupo3{
+    margin-top: 30px;
+    border:2px solid #e8c0ae;
+    height: 230px;
+    margin-bottom: 10px;
+}
+
+.grupo3 h3 {
+    color: #956655;
+    margin-top: -150px;
+    margin-left: 300px;
+    width: 600px;
+}
+
+.barraF{
+    background-color: #956655;
+    margin-top: 20px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.barraF h2 {
+    color: white;
+    margin-left: 50px;
+    margin-bottom: -5px;
+}
+
+.barraF h3{
+    color: white;
+    margin-left: 110px;
+    margin-top: -40px;
+    width: 600px;
+}
+
+.barraF img{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+/*pagina quienes somos*/
+#imagenp{
+    width: 180px;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#texto1{
+    margin-top: -130px;
+    margin-left: 300px;
+    width: 800px;
+}
+
+#texto2G{
+    color: #956655;
+    margin-top: -100px;
+    margin-left: 50px;
+    text-decoration: underline;
+}
+
+#texto2 {
+    color: #956655;
+    margin-top: -180px;
+    margin-left: 50px;
+    width: 800px;
+
+}
+
+#texto3G{
+    color: #956655;
+    margin-top: -90px;
+    margin-left: 300px;
+    text-decoration: underline;
+}
+
+/*pagina de elaboracion*/
+#texto1GE{
+    color: #956655;
+    margin-top: -150px;
+    margin-left: 280px;
+    text-decoration: underline;
+}
+#texto1E {
+    color: #956655;
+    margin-top: 10px;
+    margin-left: 280px;
+    width: 800px;
+}
+
+#imagen5{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 1000px;
+}
+
+#texto2E{
+    color: #956655;
+    margin-top: -150px;
+    margin-left: 50px;
+    width: 880px;
+}
+
+#imagen6{
+    width: 180px;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#texto3GE{
+    color: #956655;
+    margin-top: -120px;
+    margin-left: 300px;
+    text-decoration: underline;
+}
+
+/*vista producto*/
+#imagenLogo{
+    margin-top: 160px;
+    margin-left: 200px;
+}
+
+.grupo1P{
+    border:2px solid #e8c0ae;
+    height: 450px;
+}
+
+.grupo1P label{
+    display: block;
+    margin-top: -90px;
+    color: #956655;
+    margin-left: 450px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+#precio{
+    font-size: 25px;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+#envio1{
+    margin-left: 500px;
+}
+
+#envio2{
+    margin-left: 500px;
+}
+
+.grupo1P #imagenEnvio1, #imagenEnvio2{
+    display: block;
+
+}
+#imagenEnvio1{
+    margin-top: 60px;
+    margin-left: 450px;
+    width: 40px;
+}
+
+#imagenEnvio2{
+    margin-top: 20px;
+    margin-left: 450px;
+    width: 40px;
+}
+
+.grupo1P .cantidad{
+    border:2px solid #e8c0ae;
+    width: 280px;
+    height: 160px;
+    margin-left: 800px;
+    margin-top: -160px;
+}
+.grupo1P .cantidad label{
+    margin: 10px 0 0 10px;
+}
+
+.grupo1P .cantidad select{
+    width: 100px;
+    margin: 0 0 0 10px;
+}
+
+#btncompra{
+    background-color: #956655;
+    margin: 25px 0 0 10px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#btncompra:hover{
+    background-color: #794b3b ;
+}
+
+/*vista 2 product*/
+#imagenLogo2{
+    margin-top: 0px;
+    margin-left: 200px;
+
+}
+
+.grupo2P{
+    border:2px solid #e8c0ae;
+    height: 280px;
+    margin-top: 10px;
+}
+
+.grupo2P label{
+    display: block;
+    margin-top: -90px;
+    color: #956655;
+    margin-left: 450px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+#precio2{
+    font-size: 25px;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+#envio12{
+    margin-left: 500px;
+}
+
+#envio22{
+    margin-left: 500px;
+}
+
+.grupo2P #imagenEnvio12, #imagenEnvio22{
+    display: block;
+
+}
+#imagenEnvio12{
+    margin-top: 60px;
+    margin-left: 450px;
+    width: 40px;
+}
+
+#imagenEnvio22{
+    margin-top: 20px;
+    margin-left: 450px;
+    width: 40px;
+}
+
+.grupo2P .cantidad2{
+    border:2px solid #e8c0ae;
+    width: 280px;
+    height: 160px;
+    margin-left: 800px;
+    margin-top: -160px;
+}
+.grupo2P .cantidad2 label{
+    margin: 10px 0 0 10px;
+}
+
+.grupo2P .cantidad2 select{
+    width: 100px;
+    margin: 0 0 0 10px;
+}
+
+#btncompra2{
+    background-color: #956655;
+    margin: 25px 0 0 10px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#btncompra2:hover{
+    background-color: #794b3b ;
+}

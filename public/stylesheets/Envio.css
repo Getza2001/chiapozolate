@@ -1,0 +1,178 @@
+body{
+    background: white;
+    background-size: cover;
+}
+
+.logo{
+    width: 250px; height: 250px;
+    position: absolute;
+    top: -5%;
+    left: 75%;
+}
+.icono1 {
+    border: 2px solid;
+    border-radius: 100%;
+    width: 55px; height: 55px;
+    position: absolute;
+    top: 6%;
+    left: 40%;
+    filter: invert(40%) sepia(30%) saturate(500%) hue-rotate(330deg);
+}
+.icono2{
+    border: 2px solid;
+    border-radius: 100%;
+    width: 55px; height: 55px;
+    position: absolute;
+    top: 6%;
+    left: 46%;
+    filter: invert(40%) sepia(30%) saturate(500%) hue-rotate(330deg);
+}
+.icono3{
+    border: 2px solid;
+    border-radius: 100%;
+    width: 55px; height: 55px;
+    position: absolute;
+    top: 6%;
+    left: 52%;
+    filter: invert(40%) sepia(30%) saturate(500%) hue-rotate(330deg);
+}
+.icono4{
+    border: 2px solid;
+    border-radius: 100%;
+    width: 55px; height: 55px;
+    position: absolute;
+    top:6%;
+    left: 58%;
+    filter: invert(40%) sepia(30%) saturate(500%) hue-rotate(330deg);
+}
+.flecha1{
+    width: 55px; height: 55px;
+    position: absolute;
+    top:6%;
+    left: 43%;
+    filter: invert(40%) sepia(30%) saturate(500%) hue-rotate(330deg);
+}
+.flecha2{
+    width: 55px; height: 55px;
+    position: absolute;
+    top:6%;
+    left: 49%;
+    filter: invert(40%) sepia(30%) saturate(500%) hue-rotate(330deg);
+}
+.flecha3{
+    width: 55px; height: 55px;
+    position: absolute;
+    top:6%;
+    left: 55%;
+    filter: invert(40%) sepia(30%) saturate(500%) hue-rotate(330deg);
+}
+h1{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color: #653B2C;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Segoe UI;
+}
+.direccion{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    width: 1000px; height: 400px;
+    border: 3px solid #956655;
+}
+h2{
+    position: absolute;
+    top: 3%;
+    left: 15%;
+    color: #653B2C;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Segoe UI;
+}
+.calleP{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Segoe UI;
+    width: 250px; height: 30px;
+    Background-color: #956655;
+    border-radius: 5px;
+}
+.calleP::-webkit-input-placeholder {
+    color: #ffffff; font-weight :bold;
+}
+.calleS{
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Segoe UI;
+    width: 250px; height: 30px;
+    Background-color: #956655;
+    border-radius: 5px;
+}
+.calleS::-webkit-input-placeholder {
+    color: #ffffff; font-weight :bold;
+}
+.telefono{
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Segoe UI;
+    width: 250px; height: 30px;
+    Background-color: #956655;
+    border-radius: 5px;
+}
+.telefono::-webkit-input-placeholder {
+    color: #ffffff; font-weight :bold;
+}
+.referencia{
+    position: absolute;
+    top: 25%;
+    left: 58%;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Segoe UI;
+    width: 250px; height: 110px;
+    Background-color: #956655;
+    border-radius: 5px;
+}
+.referencia::-webkit-input-placeholder {
+    color: #ffffff; font-weight :bold;
+    position: absolute;
+}
+.nombre{
+    position: absolute;
+    top: 65%;
+    left: 58%;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Segoe UI;
+    width: 250px; height: 30px;
+    Background-color: #956655;
+    border-radius: 5px;
+}
+.nombre::-webkit-input-placeholder {
+    color: #ffffff; font-weight :bold;
+}
+.finalizar{
+    background: #956655;
+    position: absolute;
+    top: 82%;
+    left: 40%;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Segoe UI;
+    width: 238px; height: 40px;
+    box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.1);
+    border-color: #ffffff;
+    border-radius: 5px;
+}

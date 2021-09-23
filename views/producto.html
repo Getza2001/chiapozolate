@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet', href='/stylesheets/principal.css'>
+    <title>Productos</title>
+
+    <div class="barra">
+        <div class="btnRI">
+            <form action="/ini/Login" method="GET">
+                <button id="btnInicio">Iniciar sesión</button>
+            </form>
+            <form action="/ini/registro" method="GET">
+                <button id="btnRegistro">Registrarse</button>
+            </form>
+        </div>
+        <img id="logo" src="/images/logo1.png">
+
+        <ul>
+            <img id="home" src="/images/home1.png">
+            <img id="car" src="/images/car.png">
+            <img id="person" src="/images/person.png">
+            <img id="contact" src="/images/contact.png">
+            <li><a href="/ini/principal">Inicio</a></li>
+            <li><a href="/ini/producto">Productos</a></li>
+            <li><a href="/ini/quienesSomos">Quienes somos</a></li>
+            <li><a href="/ini/elaboracion">Elaboración</a></li>
+        </ul>
+    </div>
+</head>
+<body>
+    <div class="info">
+        <form action="/pago/pago" method="POST">
+            <div class="grupo1P">
+                <img id="imagenLogo" src="/images/empaqueLogo.png">
+                <label id="envio2">Envíos internacionales</label>
+                <br>
+                <label id="envio1">Envió no incluido</label>
+                <br>
+                <input type='hidden' name='precio' value='110' />
+                <label>$110 MXN</label>
+                <br>
+                <input type='hidden' name='nombre' value='Pozol deshidratado. 1 Kilo' />
+                <label>Pozol deshidratado. 1 Kilo</label>
+                <img id="imagenEnvio1" src="/images/carEnvio.png">
+                <img id="imagenEnvio2" src="/images/carEnvio2.png">
+
+                <div class="cantidad">
+                    <label>Cantidad:</label>
+                    <br>
+                    <select  name="select">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                    <br>
+                    <button id="btncompra">Comprar Ahora</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+        <div class="grupo2P">
+            <form action="/pago/pago" method="POST">
+                <img id="imagenLogo2" src="/images/empaqueLogo.png">
+                <label id="envio22">Envíos internacionales</label>
+                <br>
+                <label id="envio12">Envió no incluido</label>
+                <br>
+                <input type='hidden' name='precio' value='55' />
+                <label >$55 MXN</label>
+                <br>
+                <input type='hidden' name='nombre' value='Pozol deshidratado. 1/2 Kilo' />
+                <label name="nombre">Pozol deshidratado. 1/2 Kilo</label>
+                <img id="imagenEnvio12" src="/images/carEnvio.png">
+                <img id="imagenEnvio22" src="/images/carEnvio2.png">
+
+                <div class="cantidad2">
+                    <label>Cantidad:</label>
+                    <br>
+                    <select  name="select"2>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                    <br>
+                    <button id="btncompra2">Comprar Ahora</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="barraF">
+            <br>
+            <h2>Contáctanos</h2>
+            <img src="/images/whatsapp.png">
+            <h3>9611114445</h3>
+            <img src="/images/gmail.png">
+            <h3>chiapozolate@gmail.com</h3>
+        </div>
+
+    </div>
+</body>
+</html>
