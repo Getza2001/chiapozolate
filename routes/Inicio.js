@@ -15,8 +15,8 @@ router.get('/registro',(req,res)=>{
 });
 
 router.get('/principal',(req,res)=>{
-    res.render('principal', {title:"principal"});
-})
+    res.render('principal', {title:"principal"}, );
+});
 /*router.get('/principal',(req,res)=>{
     res.render('principal', {title:"principal"});
 });*/
@@ -43,8 +43,15 @@ router.post('/principal',(req,res)=>{
     let mail = req.body.mail
     let password = req.body.Password
     userDAO.obtenerUsuario(mail, (data) =>{
+        let puesto = data.puesto
         if(data.contrasena == password){
-            res.render('principal', {title:"principal"});
+            if(data.puesto == 'Administrador'){
+                res.render('principalLogin', {puesto, title:"principalLogin"});
+            }else{
+                res.render('productoLogin', {puesto, title:"productoLogin"});
+            }
+
+
         }
         else {
             console.log("no existe el usuario");
@@ -54,7 +61,8 @@ router.post('/principal',(req,res)=>{
 });
 
 router.get('/producto',(req,res)=>{
-    res.render('producto', {title:"producto"});
+    data = 'hola'
+    res.render('producto', {data, title:"producto"});
 });
 router.get('/quienesSomos',(req,res)=>{
     res.render('quienesSomos', {title:"quienesSomos"});
@@ -63,4 +71,7 @@ router.get('/elaboracion',(req,res)=>{
     res.render('elaboracion', {title:"elaboracion"});
 });
 
+
+
+//hdhdhdhdhdh
 module.exports = router;
